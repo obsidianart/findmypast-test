@@ -1,0 +1,17 @@
+{
+  "name": "findmypast-test",
+  "version": "1.0.0",
+  "description": "Write an application that takes numeric input (N) from a user and outputs a multiplication table of (N) prime numbers.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "tape tests/**/*.js | tap-spec"
+  },
+  "author": "Stefano Solinas - obsidianart",
+  "license": "",
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^4.9.1",
+    "tap-spec": "^5.0.0"
+  }
+}
