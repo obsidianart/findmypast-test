@@ -6,7 +6,7 @@ Write an application that takes numeric input (N) from a user and outputs a mult
 - Run ```npm install``` to install all the libraries
 
 ## How to run
-- ```npm run start```
+- ```npm run start [number]```
 
 ## How to run tests
 - ```npm run test```

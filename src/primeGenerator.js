@@ -1,7 +1,3 @@
-// let sieve1 = new Array(30000).fill(1)
-// let sieve2 = new Array(30000).fill(1)
-// let sieve3 = new Array(30000).fill(1)
-
 module.exports = {
   generate: (n)=>{
     // I would probably use a memoization pattern here but

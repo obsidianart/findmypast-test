@@ -9,7 +9,9 @@
   },
   "author": "Stefano Solinas - obsidianart",
   "license": "",
-  "dependencies": {},
+  "dependencies": {
+    "minimist": "^1.2.0"
+  },
   "devDependencies": {
     "tape": "^4.9.1",
     "tap-spec": "^5.0.0"
