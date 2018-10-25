@@ -13,9 +13,9 @@ module.exports = {
     sieve[0] = 0 // set the number 0 to not prime
     sieve[1] = 0 // set the number 1 to not prime
 
-    const output = []
+    const output = [2]
 
-    for (let i = 2; i < limit && output.length<n; i++) {
+    for (let i = 3; i < limit && output.length<n; i+=2) {
       if (sieve[i]) {
         output.push(i)
         for (let j = i * i; j < limit; j += i) {
