@@ -18,6 +18,6 @@ test('Generate 46 prime number', function (t) {
 test('Generate 30000 prime numbers', function (t) {
   const primes = primeGenerator.generate(30000)
   const expected = [2]
-  t.equal(primes[30000], 451879)
+  t.equal(primes[30000-1],  350377)
   t.end()
 })
